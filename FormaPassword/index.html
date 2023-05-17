@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Login Form</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form class="form" action="/example/handler.php" target="area">
+        <h2>Login</h2>
+
+        <div class="form_userName">
+          <input 
+          class="userName_input" 
+          type="text" 
+          placeholder="Username" />
+        </div>
+
+        <div class="form_password">
+          <input
+            class="password_input"
+            type="password"
+            value=""
+            placeholder="Password"
+          />
+          <button 
+          class="password_button"
+          type="button" >
+            <img src="images/eye.svg" alt="show_password" srcset="" />
+          </button>
+        </div>
+
+        <button class="button_login" type="submit">LET ME IN!</button>
+      </form>
+    </form>
+  </body>
+</html>
